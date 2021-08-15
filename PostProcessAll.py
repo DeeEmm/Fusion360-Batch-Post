@@ -53,7 +53,7 @@ constFeedXYgcode = 'G01 {} F{} (Changed from: "{}")\n'
 constFeedXYZgcode = 'G01 {} Z{} F{} (Changed from: "{}")\n'
 constAddFeedGcode = " F{} (Feed rate added)\n"
 constMotionGcodeSet = {0,1,2,3,33,38,73,76,80,81,82,84,85,86,87,88,89}
-constEndMcodeSet = {5,9,30}
+constEndMcodeSet = {9,30}
 constLineNumInc = 5
 
 # Tool tip text
@@ -938,8 +938,8 @@ def PostProcessSetup(fname, setup, setupFolder, docSettings):
             # The tail is stripped until the last operation is done.
 
             # Space between operations
-            if not fFirst:
-                fileBody.write("\n")
+            #if not fFirst:
+                #fileBody.write("\n")
 
             # % at start only
             line = fileOp.readline()
