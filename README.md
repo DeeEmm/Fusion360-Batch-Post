@@ -1,4 +1,15 @@
+## A heads up:
+
+This is a fork of [Tim Patersons Fusion 360 Batch Post processor](https://github.com/TimPaterson/Fusion360-Batch-Post) that I have modded to work with my [DDCSV11-Plasma Post Processor](https://github.com/DeeEmm/DDCSV11-Plasma). It only required a couple of small changes and I have [raised a feature request](https://github.com/TimPaterson/Fusion360-Batch-Post/issues/22) to get these changes intgrated into the Main Repo.
+
+I take no credit for Tims awesome work, so if you use this and appreciate it be sure to send some love Tims way.
+
+All documentation and setup listed here is as-per Tims original code
+
+
+
 ## Post Process All: Fusion 360 CAM Batch Post Add-In
+
 #### NEW! Fixes tool change restriction in Fusion 360 for Personal Use
 Also restores rapid moves the free version of Fusion 360 limits to 
 feed-rate moves. See section below.
